@@ -65,7 +65,7 @@ function Form() {
           {edit === id ? (
             <div className="flex items-center gap-3 md:w-[90%]">
               <input
-                className="px-2 py-1 outline-none w-[70%]   rounded-md text-white"
+                className="px-2 py-1 outline-none w-[70%]   rounded-md text-black"
                 value={editValue}
                 onChange={(e) => setEditValue(e.target.value)}
                 placeholder="Enter new value"
