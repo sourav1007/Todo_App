@@ -44,7 +44,7 @@ function Form() {
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          className="p-4 w-[80%] outline-none rounded-tl-md rounded-bl-md text-xl text-white"
+          className="p-4 w-[80%] outline-none rounded-tl-md rounded-bl-md text-xl text-black"
           type="text"
           placeholder="Enter the task here"
         />
