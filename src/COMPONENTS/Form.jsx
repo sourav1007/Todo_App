@@ -4,7 +4,7 @@ import { FaEdit } from "react-icons/fa";
 
 function Form() {
   const [value, setValue] = useState("");
-  const [todo, setTodo] = useState(["one"]);
+  const [todo, setTodo] = useState([]);
   const [edit, setEdit] = useState(null);
   const [editValue, setEditValue] = useState("");
 
@@ -49,7 +49,7 @@ function Form() {
           placeholder="Enter the task here"
         />
         <button
-          className="p-4 w-[20%] text-xl outline-none font-bold  bg-yellow-500 rounded-tr-md rounded-br-md text-black text-center"
+          className="py-4 w-[20%] text-xl outline-none font-bold   bg-yellow-500 rounded-tr-md rounded-br-md text-black text-center"
 
           onClick={addTask}
         >
